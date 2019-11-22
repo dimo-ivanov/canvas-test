@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.stage {
+  border: 1px solid black;
+  background: red;
+}
+
+.stage > div {
+  background: yellow;
+  border: 1px solid black;
+}
